@@ -47,3 +47,7 @@ def centroid_index(data, label_1, label_2, metric='euclidean', prototype='center
     '''
 ```
 
+## Reference
+
+Rezaei, Mohamamd & Zhao, Qinpei. (2014). Centroid index: Cluster level similarity measure. Pattern Recognition. 47. 3034–3045. 10.1016/j.patcog.2014.03.017. 
+
