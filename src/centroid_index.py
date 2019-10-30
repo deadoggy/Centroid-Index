@@ -104,7 +104,7 @@ def centroid_index(data, label_1, label_2, metric='euclidean', prototype='center
             @metric:
                 string or function, metric to calculate distance between
                 prototypes. For string please follow the rules of 
-                sklearn.neighbors.dist_metrics(expect 'pyfunc').
+                sklearn.neighbors.dist_metrics(except 'pyfunc').
                 If the metric is user defined, please assign this arg as a
                 function which takes two prototypes as input. The prototypes 
                 are given by @prototype
